@@ -10,13 +10,16 @@
   <h2> Pembelian Produk </h2>
   <label for="Product_Type">Product Type:</label><br>
   <select name="Product_Type"> 
-    <option value="WIP">WIP</option>
-    <option value="DONE">DONE</option>
+    <option value="WIP">Pilih Tipe Produk Anda</option>
+    <option value="DONE">Selesai</option>
+    <option value="WIP">Rakit Sendiri</option>
   </select><br>
   <label for="nama_product">Product:</label><br>
   <select name="nama_product"> 
-    <option value="Produk Kasar">Produk Kasar</option>
-    <option value="Produk Lunak">Produk Lunak</option>
+    <option value="Produk Kasar">Pilih Produk anda</option>
+    <option value="Produk Kasar">Sofa</option>
+    <option value="Produk Kasar">Kursi</option>
+    <option value="Produk Lunak">Meja</option>
   </select><br>
   <label for="Cost_Product_Code">Cost Product Code:</label><br>
   <input type="Text" id="Cost_Product_Code" name="Cost_Product_Code" required><br>
