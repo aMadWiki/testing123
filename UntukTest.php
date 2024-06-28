@@ -6,7 +6,7 @@
     <title>Beli Barang</title>
 </head>
 <body>
-<form action="<?php echo htmlspecialchars($_SERVER["UntukPanggilTest.php"]);?>" method="post">
+<form action="<?php echo htmlspecialchars($_SERVER["untukpanggiltest.php"]);?>" method="post">
   <h2> Pembelian Produk </h2>
   <label for="Product_Type">Product Type:</label><br>
   <select name="Product_Type"> 
